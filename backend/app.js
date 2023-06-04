@@ -1,6 +1,7 @@
 const express = require("express");
 const ErrorHandler = require("./middleware/error");
 const app = express();
+const path = require("path");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const user = require("./controller/user");
