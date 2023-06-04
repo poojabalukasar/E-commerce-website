@@ -11,7 +11,6 @@ const payment = require("./controller/payment");
 const order = require("./controller/order");
 const couponCodes = require("./controller/coupounCode");
 
-
 const cors = require("cors");
 
 app.use(express.json());
